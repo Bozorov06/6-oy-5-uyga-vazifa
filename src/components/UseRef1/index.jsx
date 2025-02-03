@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import './index.module.css'
+import './index.css'
 
 
 function UseRef1() {
@@ -30,7 +30,7 @@ function UseRef1() {
     <>
       <strong>UseRefni 1-masalasi</strong>
       <div>
-        <form className="form2" onSubmit={handleSubmitt}>
+        <form className="form3" onSubmit={handleSubmitt}>
           <input ref={nameRef} type="text" placeholder="Ismingizni kiriting" />
           <input
             ref={lastNameRef}

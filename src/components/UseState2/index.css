@@ -1,4 +1,4 @@
-.form3 {
+.form2 {
   border: 1px solid gray;
   display: flex;
   flex-direction: column;
@@ -18,14 +18,14 @@
     display: flex;
     justify-content: center;
 }
-.form3 input,
+.form2 input,
 select {
   padding: 10px;
   border-radius: 10px;
   border: 1px solid gray;
   font-weight: 600;
 }
-.form3 button {
+.form2 button {
   padding: 10px;
   border-radius: 10px;
   background-color: blue;
@@ -35,6 +35,6 @@ select {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-.form3 button:hover {
+.form2 button:hover {
   background-color: rgb(18, 176, 18);
 }

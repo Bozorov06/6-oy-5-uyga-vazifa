@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import "./index.css";
-// import UseRef1 from "../UseRef1";
+
 
 function UseRef2() {
   const emailRef = useRef();
@@ -29,7 +29,7 @@ function UseRef2() {
     <>
       <strong>UseRefni 2-masalasi</strong>
       <div>
-        <form  onSubmit={handleSubmit2}>
+        <form className="form4" onSubmit={handleSubmit2}>
           <input
             ref={emailRef}
             type="email"

@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 
-import "./index.module.css"
+import "./index.css"
 
 function Usestate1(){
     const [form, setForm] = useState({
@@ -17,7 +17,7 @@ function Usestate1(){
       <>
         <strong>UseStateni 1-masalasi</strong>
         <div>
-          <form onSubmit={handleSubmit1}>
+          <form className="form1" onSubmit={handleSubmit1}>
             <input
               value={form.name}
               onChange={(e) => {
