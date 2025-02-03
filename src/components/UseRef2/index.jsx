@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
-import "./index.module.css";
-import UseRef1 from "../UseRef1";
+import "./index.css";
+// import UseRef1 from "../UseRef1";
 
 function UseRef2() {
   const emailRef = useRef();
