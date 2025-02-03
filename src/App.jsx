@@ -15,7 +15,7 @@ function App() {
       <UseState2 />
       <UseRef1 />
       <UseRef2 />
-      <UseEffect1 />
+      {/* <UseEffect1 /> */}
       <UseEffect2 />
     </>
   );
